@@ -1,0 +1,287 @@
+<!-- - Create a layout according to the design shown below.
+
+![Backgrounds and gradient Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/adding-media/ex-1.png)
+
+- Video link: https://www.youtube.com/watch?v=AqcjdkPMPJA#action=share
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tittle -->
+    <title>Adding media</title>
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/53765f52cd.js" crossorigin="anonymous"></script>
+    <!-- font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header  -->
+     <header>
+        <div class="container">
+            <section class="header-section flex">
+                <h1>Hydro</h1>
+                <nav class="header-nav1">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Our Work</a>
+                    <a href="#">Contacts</a>
+                </nav>
+                <nav class="header-nav2 flex">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <button>Sign in/Join</button>
+                </nav>
+            </section>
+            <!-- first section  -->
+            <section class="first-section flex">
+                <div>
+                    <h2>We make beautiful website for all people.</h2>
+                    <div class="flex div">
+                        <button>Start project</button>
+                        <address>CALL US(+66)010-020-0340 <br>For any inquiry </address>
+                    </div>
+                </div>
+                <figure>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AqcjdkPMPJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+            </section>
+        </div>
+    </header>
+    <!-- main content  -->
+    <main>
+        <!-- second section  -->
+        <section class="second-section container flex">
+            <article class="col1">
+                <h3>Let us introduce</h3>
+                <div class="flex-box">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <p class="article-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eum odit vero nisi distinctio explicabo recusandae ea libero iste quidem! At explicabo iste nisi delectus hic tempore magnam repellendus consequuntur.</p>
+                <p class="article-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatibus autem quia optio</p>
+            </article>
+            <div class="col2">
+                <div class="flex">
+                    <p class="p p1">Web Design</p>
+                    <span class="article-span">85%</span>
+                </div>
+                <div class="flex">
+                    <p class="p p2">Photography</p>
+                    <span class="article-span">90%</span>
+                </div>
+                <div class="flex">
+                    <p class="p p3">Content Marketing</p>
+                    <span class="article-span">75%</span>
+                </div>
+                <div class="flex">
+                    <p class="p p4">CMS Admin </p>
+                    <span class="article-span">70%</span>
+                </div>
+            </div>
+            <figure class="col3">
+                <img src="./assets/about-image.jpg" alt="img">
+            </figure>
+        </section>
+        <!-- blog section  -->
+        <section class="blog-section padding">
+            <div class="blog-heading">
+                <h3>Our BLog</h3>
+                <div class="flex-boxes">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="blog-flex">
+                    <div class="blog-box">
+                        <article class="blog-flex article">
+                            <div class="col1">
+                                <figure>
+                                    <img src="./assets/blog-image1.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col2">
+                                <div class="flex">
+                                    <figure class="fig">
+                                        <img src="./assets/time2.png" alt="" class="time">
+                                    </figure>
+                                    <span class="fig-span">December 22,2017</span>
+                                </div>
+                                <h3>How To Find Out Beautiful Workspace.</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, aspernatur</p>
+                                <button>Read article</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="blog-box">
+                        <article class="blog-flex article">
+                            <div class="col1">
+                                <figure>
+                                    <img src="./assets/blog-image2.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col2">
+                                <div class="flex">
+                                    <figure class="fig">
+                                        <img src="./assets/time2.png" alt="" class="time">
+                                    </figure>
+                                    <span class="fig-span">December 14,2017</span>
+                                </div>
+                                <h3>Women Sportwear.</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, aspernatur</p>
+                                <button>Read More</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="blog-flex">
+                    <div class="blog-box">
+                        <article class="blog-flex article">
+                            <div class="col1">
+                                <figure>
+                                    <img src="./assets/blog-image3.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col2">
+                                <div class="flex">
+                                    <figure class="fig">
+                                        <img src="./assets/time2.png" alt="" class="time">
+                                    </figure>
+                                    <span class="fig-span">December 10,2017</span>
+                                </div>
+                                <h3>New Creative Fashion.</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, aspernatur</p>
+                                <button>Read article</button>
+                            </div>
+                        </article>
+                    </div><div class="blog-box">
+                        <article class="blog-flex article">
+                            <div class="col1">
+                                <figure>
+                                    <img src="./assets/blog-image4.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col2">
+                                <div class="flex">
+                                    <figure class="fig">
+                                        <img src="./assets/time2.png" alt="" class="time">
+                                    </figure>
+                                    <span class="fig-span">December 18,2017</span>
+                                </div>
+                                <h3>Minimalist Design Trend In 2018</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, aspernatur obcaecati in fugit dolores</p>
+                                <button>View Detail</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- work section  -->
+        <section class="work-section padding">
+            <div class="blog-heading">
+                <h3>Our Work</h3>
+                <div class="flex-boxes">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+            <div class="container gallery">
+                <div class="flex">
+                    <figure class="work-img">
+                        <img src="./assets/work-image1.jpg" alt="">
+                    </figure>
+                    <figure class="work-img">
+                        <img src="./assets/work-image2.jpg" alt="">
+                    </figure>
+                    <figure class="work-img">
+                        <img src="./assets/work-image3.jpg" alt="">
+                    </figure>
+                    <figure class="work-img">
+                        <img src="./assets/work-image4.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section padding">
+            <div class="blog-heading">
+                <h3>Contact us</h3>
+                <div class="flex-boxes">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+            <div class="container flex contact">
+                <div class="col1">
+                    <div class="flex">
+                        <div class="contact-box">Full Name</div>
+                        <div class="contact-box">Your Email</div>
+                    </div>
+                    <div class="flex">
+                        <div class="contact-box">Your Phone</div>
+                        <div class="contact-box">Budget Level</div>
+                 </div>
+                    <div class="contact-box contact-box1">Your requirements</div>
+                    <button>Send Messages</button>
+                </div>
+                <div class="col2">
+                    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1257.4068428298096!2d76.35405506158794!3d32.20875450268299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1664809013028!5m2!1sen!2sin"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section  -->
+    <footer>
+        <section class=" container footer-section">
+            <article class="col1">
+                <h3>Hydro Comapany</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, consectetur. Facere, incidunt assumenda odio, eligendi blanditiis cum laudantium doloribus earum, aliquid quo tenetur hic dolor eum totam deleniti quas voluptates.</p>
+            </article>
+            <article class="col2">
+                <h3>Comapany</h3>
+                <p>About us</p>
+                <p>Join Our Team</p>
+                <p>Read Blog</p>
+                <p>Press</p>
+            </article>
+            <article class="col2">
+                <h3>Service</h3>
+                <p>Pricing</p>
+                <p>Documentation</p>
+                <p>Support</p>
+            </article>
+            <article class="col2">
+                <h3>Find us</h3>
+                <p>123 Grand Rama</p>
+                <p>Krung Thep Maha</p>
+            </article>
+        </section>
+        <section class="container footer flex">
+            <div>Copyright &copy 2017 Your Company</div>
+            <address>Call Us (+66)010-020-0340</address>
+            <nav>
+                 <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </nav>
+        </section>
+    
+    </footer>
+</body>
+</html>
